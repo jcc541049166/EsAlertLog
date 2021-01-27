@@ -4,8 +4,14 @@
 应用程序日志收集到ES，查找相关关键字，达到多少笔进行邮件告警。
 
 ```
-go run main.go -c D:\goproject\src\EsAlertLog\config\es.conf-f D:\goproject\src\EsAlertLog\config\alert.conf -m D:\goproject\src\EsAlertLog\config\mail.conf
+windows:
+go run main.go -c D:\goproject\src\EsAlertLog\config\es.conf -f D:\goproject\src\EsAlertLog\config\alert.conf -m D:\goproject\src\EsAlertLog\config\mail.conf
 go build -o esalertlog.exe .\EsAlertLog\main\main.go
+
+linux:
+go run main.go -c  ../config/es.conf -f ../config/alert.conf -m ../config/mail.conf
+go buil -o esalertlog main.go
+
 ```
 
 ###### es.conf:
