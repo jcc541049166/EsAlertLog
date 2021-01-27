@@ -1,0 +1,8 @@
+2021/01/27 14:53:38 main.go:45: 开始执行......
+2021/01/27 14:53:38 InitEsClient.go:26: Elasticsearch Version: 7.2.0
+2021/01/27 14:54:08 MatchPhaseProcess.go:42: MatchPhase Status: 0,TimOut: false, ToTal Hits: 0, TookInMillis: 0
+2021/01/27 14:54:08 MailProcess.go:52: 不需要发送邮件,Count数量为:0
+2021/01/27 14:54:08 MailProcess.go:53: 规则ID: 1,规则索引: index1, 搜索关键字: love,搜索阈值: 2
+2021/01/27 14:54:38 MatchPhaseProcess.go:42: MatchPhase Status: 0,TimOut: false, ToTal Hits: 0, TookInMillis: 0
+2021/01/27 14:54:38 MailProcess.go:52: 不需要发送邮件,Count数量为:0
+2021/01/27 14:54:38 MailProcess.go:53: 规则ID: 1,规则索引: index1, 搜索关键字: love,搜索阈值: 2
